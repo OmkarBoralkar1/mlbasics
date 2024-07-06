@@ -9,6 +9,7 @@ matplotlib.rcParams['figure.figsize'] = (20,10)
 
 # Read the CSV file into a DataFrame
 data = pd.read_csv('Bengaluru_House_Data.csv')
+print('the data got is ',data)
 
 # Function for data cleaning
 def data_cleaning():
